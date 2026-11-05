@@ -41,7 +41,7 @@ services:
   application:
     image: agdinesh943/mynewapp:appimage
     ports:
-      - "1234:3306"
+      - "1234:8080"
     depends_on:
       - "devopsdb"
 
